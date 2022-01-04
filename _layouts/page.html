@@ -25,8 +25,8 @@ layout: default
       a.innerText = a.title;
 
       // remove .md extension from wikilinks to get the html in jekyll
-      if (l.href.endsWith('.md')) {
-        l.href = l.href.substring(0, l.href.length-3)
+      if (a.href.endsWith('.md')) {
+        a.href = a.href.substring(0, a.href.length-3)
       }
     }
   });
