@@ -4,15 +4,30 @@ layout: default
 
 {{ content }}
 
-<script type="text/javascript">
-  // Hack: Replace page-link with "Page Title"
-  document.querySelectorAll(".markdown-body a[title]").forEach((a) => {
-    a.innerText = a.title;
-  });
-  // Hack: Remove .md extension from wikilinks to get the html in jekyll
-  document.querySelectorAll("a").forEach(l => {
-    if (l.href.endsWith('.md')) {
-      l.href = l.href.substring(0, l.href.length-3)
+<script>
+  document.querySelectorAll(".markdown-body a[title]:not([href^=http])").forEach((a) => {
+    // filter to only wikilinks
+    let prev = a.previousSibling;
+    let next = a.nextSibling;
+    if (
+      prev instanceof Text && prev.textContent.endsWith('[') &&
+      next instanceof Text && next.textContent.startsWith(']')
+    ) {
+
+      // remove surrounding brackets
+      prev.textContent = prev.textContent.slice(0, -1);
+      next.textContent = next.textContent.slice(1);
+
+      // add CSS list for styling
+      a.classList.add('wikilink');
+
+      // replace page-link with "Page Title"
+      a.innerText = a.title;
+
+      // remove .md extension from wikilinks to get the html in jekyll
+      if (l.href.endsWith('.md')) {
+        l.href = l.href.substring(0, l.href.length-3)
+      }
     }
-  })
+  });
 </script>
