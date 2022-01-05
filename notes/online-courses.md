@@ -5,7 +5,7 @@ I'm interested in the following online courses
 I'm looking to acquire new skills in Statistics and Machine Learning in Python using libraries like numpy, scipy and scikit-learn.
 
 - Coursera
-  - [Introduction to Statistics](https://www.coursera.org/learn/stanford-statistics)
+  - [Started] [Introduction to Statistics](https://www.coursera.org/learn/stanford-statistics)
   - [Machine Learning](https://www.coursera.org/learn/machine-learning) <small>Comprehensive, but not focused on Python</small>
   - [Machine Learning with Python](https://www.coursera.org/learn/machine-learning-with-python) <small>Part of a Professional Certificate. Need to upgrade to submit assignments.</small>
 - Udemy
@@ -24,3 +24,5 @@ I'm looking to acquire new skills in Statistics and Machine Learning in Python u
   - [Basic Modeling for Discrete Optimization](https://www.coursera.org/learn/basic-modeling)
   - [Advanced Modeling for Discrete Optimization](https://www.coursera.org/learn/advanced-modeling)
   - [Solving Algorithms for Discrete Optimization](https://www.coursera.org/learn/solving-algorithms-discrete-optimization)
+- 2017
+  - DevOps Foundations (Lynda.com)
