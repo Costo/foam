@@ -4,9 +4,9 @@ In 2022, my goal is to organize my thoughts with this tool.
 
 ## Daily Notes
 
-[[2022-01-06]]
-[[2022-01-05]]
-[[2022-01-04]]
+[[2022-01-06]]  
+[[2022-01-05]]  
+[[2022-01-04]]  
 
 ## Other notes
 
