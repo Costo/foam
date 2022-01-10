@@ -1,3 +1,5 @@
+# Notes
+
 **[Foam](https://foambubble.github.io/foam/)** is a personal knowledge management and sharing system
 
 In 2022, my goal is to organize my thoughts with this tool.
