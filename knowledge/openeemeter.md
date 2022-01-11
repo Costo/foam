@@ -5,6 +5,9 @@ OpenEEmeter is an open source toolkit for implementing and developing standard m
 </blockquote>
 
 ## Links
+
+[Project page](https://www.lfenergy.org/projects/openeemeter/)
+
 [EEmeter GitHub repository](https://github.com/openeemeter/eemeter)
 
 [Demo Notebook](https://colab.research.google.com/drive/1HPBz7Z6_kabAUWL7_WNG3Wvx-tpjvGop) combining both EEmeter and GRIDmeter
