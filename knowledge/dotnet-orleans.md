@@ -6,8 +6,8 @@ Orleans is a cross-platform framework for building robust, scalable distributed 
 
 ## Links
 
-[GitHub repository](https://github.com/dotnet/orleans)
-[Documentation](https://dotnet.github.io/orleans/)
-[Discord server](https://aka.ms/orleans-discord)
+[GitHub repository](https://github.com/dotnet/orleans)  
+[Documentation](https://dotnet.github.io/orleans/)  
+[Discord server](https://aka.ms/orleans-discord)  
 
 
