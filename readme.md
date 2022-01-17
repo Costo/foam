@@ -6,7 +6,7 @@ In 2022, my goal is to organize my thoughts with this tool.
 
 ## Daily Notes
 
-[[2022-01-17]]
+[[2022-01-17]]  
 [[2022-01-14]]  
 [[2022-01-12]]  
 [[2022-01-11]]  
